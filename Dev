@@ -42,7 +42,7 @@ contract ERC20 is IERC20 {
        emit Transfer(msg.sender, recipient, amount);
        return true;
 # test
-   }
+   
  
    function approve(address spender, uint amount) external returns (bool) {
        allowance[msg.sender][spender] = amount;
