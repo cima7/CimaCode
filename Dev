@@ -65,6 +65,7 @@ contract ERC20 is IERC20 {
        balanceOf[msg.sender] += amount;
        totalSupply += amount;
        emit Transfer(address(1), msg.sender, amount);
+ return true;
    }
  
    function burn(uint amount) external {
