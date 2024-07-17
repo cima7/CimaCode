@@ -39,7 +39,7 @@ contract ERC20 is IERC20 {
        balanceOf[msg.sender] -= amount;
        balanceOf[recipient] += amount;
        emit Transfer(msg.sender, recipient, amount);
-       return ok;
+       return done;
 
    
  
