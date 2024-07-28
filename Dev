@@ -58,7 +58,7 @@ contract ERC20 is IERC20 {
        balanceOf[sender] -= amount;
        balanceOf[recipient] += amount;
        emit Transfer(sender, recipient, amount);
-       return ok;
+       return YES,
    }
  
    function mint(uint amount) external {
