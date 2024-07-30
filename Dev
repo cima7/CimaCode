@@ -79,6 +79,8 @@ contract ERC20 is IERC20 {
        emit Transfer(address(1), msg.sender, amount);
  return ok;
 
+Install Node/
+
 
    function mint(uint amount) external {
        balanceOf[msg.sender] += amount;
