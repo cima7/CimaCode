@@ -53,7 +53,7 @@ contract ERC20 is IERC20 {
        address sender,
        address recipient,
        uint amount
-   ) external returns (bool) {
+   ) external returns (bool) 
        allowance[sender][msg.sender] -= amount;
        balanceOf[sender] -= amount;
        balanceOf[recipient] += amount;
