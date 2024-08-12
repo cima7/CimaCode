@@ -94,3 +94,8 @@ Install Node/
  return ok;
    }
 //
+   function transferFrom(
+       address sender,
+       address recipient,
+       uint amount
+   ) external returns (bool);
