@@ -13,8 +13,7 @@ interface IERC20
  
    function approve(address spender, uint amount) external returns (bool);
 
-Install 
-//
+Install:
 
    function transferFrom(
        address sender,
