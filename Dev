@@ -97,4 +97,4 @@ Install Node/
        address sender,
        address recipient,
        uint amount
-   ) external returns (bool);
+   ) internal returns (bool);
