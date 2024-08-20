@@ -27,7 +27,7 @@ Install:
  
  
  
-contract ERC20 is IERC20 {
+contract ERC20 is TRC20  {
    uint public totalSupply;
    mapping(address => uint) public balanceOf;
    mapping(address => mapping(address => uint)) public allowance;
