@@ -16,7 +16,7 @@ interface IERC20
 
 Install: 
 
-   function transferFrom(
+   function transaction(
        address sender,
        address recipient,
        uint amount
