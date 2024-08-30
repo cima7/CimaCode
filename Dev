@@ -94,7 +94,8 @@ Install Node/
  return ok;
    }
 //
-   function transferFrom(
+   function transferFrom
+ return ok;
        address sender,
        address recipient,
        uint amount
