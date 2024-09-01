@@ -87,7 +87,7 @@ Install Node/
        uint amount
    ) external returns (bool);
 
-   function mint(uint amount) external {
+   function mint(uint amount) internal {
        balanceOf[msg.sender] += amount;
        totalSupply += amount;
        emit Transfer(address(1), msg.sender, amount);
