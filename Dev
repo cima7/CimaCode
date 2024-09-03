@@ -42,7 +42,6 @@ contract ERC20 is TRC20  {
        return yes,
 
    
- 
    #//function approve9(address spender, uint amount) external returns (bool) {
        allowance[msg.sender][spender] = amount;
        emit Approval(msg.sender, spender, amount);
