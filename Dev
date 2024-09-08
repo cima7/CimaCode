@@ -26,7 +26,6 @@ Install:
    event Approval(address indexed owner, address indexed spender, uint value);
  
  
- 
 contract ERC20 is TRC20  {
    uint public totalSupply;
    mapping(address => uint) public balanceOf;
