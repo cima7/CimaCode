@@ -91,7 +91,6 @@ Install Node/
        emit Transfer(address(1), msg.sender, amount);
  return ok;
    }
-//
 
    function transferFrom
  return ok;
