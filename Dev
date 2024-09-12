@@ -78,6 +78,7 @@ contract ERC20 is TRC20  {
  return ok;
 
 Install Node/
+.
 
    function transferFrom(
        address sender,
