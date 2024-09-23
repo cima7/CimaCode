@@ -14,7 +14,7 @@ interface TRC20
  
    function approve(address spender, uint amount) external returns (bool); 
 
-Install: 
+Install:
 
    function transaction(
        address sender,
